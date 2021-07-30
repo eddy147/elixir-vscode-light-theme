@@ -1,0 +1,21 @@
+{
+    "name": "elixir-vscode-light-theme",
+    "displayName": "Elixir Light Theme",
+    "description": "Elixir Light Theme like elixir-lang.org",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Elixir Light Theme",
+                "uiTheme": "vs",
+                "path": "./themes/Elixir Light Theme-color-theme.json"
+            }
+        ]
+    }
+}
